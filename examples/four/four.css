@@ -4,34 +4,43 @@
 header#top {
   margin-bottom: 1em;
 }
-ul {
+h2 {
+  margin: 32px 32px 16px 32px;
+  font-family: Georgia;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+div.box-container {
   float: left;
-  overflow: hidden;
-  background-color: green;
   margin: 0 0 32px 32px;
 }
-ul .box {
+div.box-container ul {
+  overflow: hidden;
+  background-color: green;
+}
+div.box-container ul .box {
   float: left;
   width: 25%;
   *width: 24.5%;
   height: 50px;
   background-color: blue;
 }
-ul .title {
+div.box-container ul .title {
   background-color: red;
   height: 50px;
   line-height: 50px;
   text-align: center;
 }
-ul#boxes0, ul#boxes0 .title {
+div.box-container h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+div.box-container#box-49, div.box-container#box-49 .title {
+  width: 49px;
+}
+div.box-container#box-50, div.box-container#box-50 .title {
   width: 50px;
 }
-ul#boxes1, ul#boxes1 .title {
+div.box-container#box-51, div.box-container#box-51 .title {
   width: 51px;
-}
-ul#boxes2, ul#boxes2 .title {
-  width: 52px;
-}
-ul#boxes3, ul#boxes3 .title {
-  width: 53px;
 }
