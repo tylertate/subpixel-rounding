@@ -1,0 +1,17 @@
+@import '../../stylesheets/reset.css';
+
+@import '../../stylesheets/demo.css';
+header#top {
+  margin-bottom: 1em;
+}
+ul#boxes {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: red;
+}
+ul#boxes .box {
+  float: left;
+  width: 33.333%;
+  height: 50px;
+}
