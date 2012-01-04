@@ -1,0 +1,37 @@
+@import '../../stylesheets/reset.css';
+
+@import '../../stylesheets/demo.css';
+header#top {
+  margin-bottom: 1em;
+}
+ul {
+  float: left;
+  overflow: hidden;
+  background-color: green;
+  margin: 0 0 32px 32px;
+}
+ul .box {
+  float: left;
+  width: 25%;
+  *width: 33.083%;
+  height: 50px;
+  background-color: blue;
+}
+ul .title {
+  background-color: red;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+ul#boxes0, ul#boxes0 .title {
+  width: 50px;
+}
+ul#boxes1, ul#boxes1 .title {
+  width: 51px;
+}
+ul#boxes2, ul#boxes2 .title {
+  width: 52px;
+}
+ul#boxes3, ul#boxes3 .title {
+  width: 53px;
+}

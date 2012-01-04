@@ -1,0 +1,48 @@
+@import '../../stylesheets/reset.css';
+@import '../../stylesheets/demo.css';
+
+
+////////////
+// LAYOUT //
+////////////
+
+// header
+header#top {
+	margin-bottom: 1em;
+}
+
+ul {
+	float: left;
+	overflow: hidden;
+	background-color: green;
+	margin: 0 0 32px 32px;
+
+	.box {
+		float: left;
+		width: 25%;
+		*width: 33.333%-0.25%;
+		height: 50px;
+		
+		background-color: blue;
+	}
+	
+	.title {
+		background-color: red;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+}
+
+ul#boxes0, ul#boxes0 .title {
+	width: 50px; // 12.5
+}
+ul#boxes1, ul#boxes1 .title {
+	width: 51px; // 12.75
+}
+ul#boxes2, ul#boxes2 .title {
+	width: 52px; // 13
+}
+ul#boxes3, ul#boxes3 .title {
+	width: 53px; // 13.25
+}
