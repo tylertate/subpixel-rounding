@@ -21,6 +21,7 @@ div.box-container ul {
 div.box-container ul .box {
   float: left;
   width: 25%;
+  *width: 24.5%;
   height: 50px;
   background-color: blue;
 }
