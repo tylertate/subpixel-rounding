@@ -13,7 +13,6 @@ ul {
 ul .box {
   float: left;
   width: 25%;
-  *width: 33.083%;
   height: 50px;
   background-color: blue;
 }
